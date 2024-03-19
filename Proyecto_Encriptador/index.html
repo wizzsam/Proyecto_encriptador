@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img class="imagen_logo" src="logo.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="titulo">
+            <h1>CHALLENGE ENCRIPTADOR</h1>
+        </div>
+
+        <section class="Caja_numero1">
+            <textarea class="ingreso_dato" name="Ingrese" cols="50" rows="10" placeholder="Ingrese el texto aqui" oninput="letras_minusculas(this)"></textarea>
+            <div class="Mensaje_exclusión ">
+                <img src="imagen_exclamación.png " alt="imagen de exclamación " class="imagen_excla ">
+                <p class="texto_excla ">Solo letras minúsculas y sin acento.</p>
+            </div>
+            <div class="botones ">
+                <button class="boton_encriptar " onclick="Boton_Encriptar() ">Encriptar</button>
+                <button class="boton_desencriptar " onclick="Boton_Desencriptar() ">Desencriptar</button>
+            </div>
+        </section>
+        <section class="Caja_numero2 ">
+            <p id="titulo_resultado" style="display: none;">Su resultado es:</p>
+            <p id="resultado" style="display: none;"></p>
+            <div class="Informacion ">
+                <img src="Imagen2.jpg " alt=" " class="imagen_muñeco " id="muñeco_img">
+                <p class="texto_info " id="texto_info_mensaje">Ningún mensaje fue encontrado</p>
+                <textarea name=" " id="textareaConvertor" cols="40 " rows="10 " disabled>Ingrese el texto que desees encriptar o Desencriptar</textarea>
+            </div>
+            <div class="botones_adicionales">
+                <button id="boton_copiar" class="boton_copiar" onclick="boton_Copiar()" style="display: none;"> Copiar</button>
+                <button id="refrescar" onclick="boton_refrescar()" style="display: none;">Refrescar</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="pie de pagina ">
+        <a href="https://www.linkedin.com/in/abel-aaron-fernandez-pelaez-bb9170290/ "><img src="logo linkedind.webp " alt="Logo de linkedin " class="logo_linkendin "></a>
+        <p class="derechos_de_autor "> Trabajo hecho por &#174 Abel Fernandez Pelaez &#8482</p>
+    </footer>
+    <script src="js.js "></script>
+
+</body>
+
+
+</html>

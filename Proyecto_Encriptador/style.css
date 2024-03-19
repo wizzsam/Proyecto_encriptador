@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Big+Shoulders+Stencil+Display:wght@100..900&family=Nova+Slim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Big+Shoulders+Stencil+Display:wght@100..900&family=Nova+Slim&family=Titan+One&display=swap');
+body {
+    background: #F3F5FC;
+}
+
+.imagen_logo {
+    background: #F3F5FC;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Titan One", sans-serif;
+    font-size: 30px;
+    margin-top: -85px;
+    margin-bottom: -20px;
+    color: #052051;
+}
+
+.Caja_numero1 {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 30px;
+    vertical-align: top;
+}
+
+.imagen_excla {
+    margin-top: 10px;
+    width: 15px;
+    opacity: 60%;
+}
+
+.texto_excla {
+    display: inline-block;
+    font-size: 15px;
+    opacity: 50%;
+    font-family: "Antic Didone", serif;
+    font-weight: bold;
+}
+
+.botones {
+    margin-left: 85px;
+    margin-top: -25px;
+}
+
+.boton_encriptar {
+    width: 35%;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px 55px;
+    cursor: pointer;
+    background: #052051;
+    color: white;
+    font-size: 15px;
+}
+
+.boton_desencriptar {
+    width: 35%;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px 55px;
+    cursor: pointer;
+    font-size: 15px;
+    background: white;
+}
+
+.boton_encriptar:hover {
+    background: #072B61;
+}
+
+.boton_desencriptar:hover {
+    background: #F5F5F5;
+}
+
+.boton_encriptar:active {
+    background: black;
+}
+
+.boton_desencriptar:active {
+    background: black;
+    color: white;
+}
+
+.ingreso_dato {
+    background: white;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 35px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    font-family: "Nova Slim", system-ui;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #052051;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.Caja_numero2 {
+    background: white;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    vertical-align: 20%;
+}
+
+#titulo_resultado {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#resultado {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.Informacion {
+    height: 650px;
+    width: 390px;
+}
+
+.imagen_muñeco {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#textareaConvertor {
+    color: black;
+    resize: none;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background: white;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.boton_copiar {
+    width: 35%;
+    border-radius: 10px;
+    margin-left: 34%;
+    margin-top: -100%;
+    display: flex;
+    margin-bottom: 150px;
+    font-size: 15px;
+    padding: 20px 45px;
+    cursor: pointer;
+    background: #052051;
+    color: white;
+}
+
+.boton_copiar:hover {
+    background: #072B61
+}
+
+.boton_copiar:active {
+    background: black
+}
+
+#refrescar {
+    width: 35%;
+    border-radius: 10px;
+    padding: 20px 4px;
+    font-size: 15px;
+    background: #8B2009;
+    color: white;
+    margin-top: -145px;
+    margin-left: 130px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+#refrescar:hover {
+    background: #C32C0B
+}
+
+#refrescar:active {
+    background: #EE340B
+}
+
+.texto_info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer {
+    margin-left: 300px;
+    margin-top: -60px;
+}
+
+.logo_linkendin {
+    width: 30px;
+}
+
+.derechos_de_autor {
+    display: inline;
+}
+
+.logo_linkendin:hover {
+    background: black;
+}
